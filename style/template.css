@@ -1,0 +1,33 @@
+html { position: relative; margin: 0; padding: 0; }
+body { margin: 0; padding: 0; text-align: left; }
+#imPage { position: relative; width: 100%; }
+#imHeaderBg { position: absolute; left: 0; top: 0; width: 100%; }
+#imMnMnGraphics { position: absolute; top: 0; bottom: 0; z-index: 9; }
+#imContentContainer { position: relative; }
+#imContent { position: relative; }
+#imContentGraphics { position: absolute; top: 0; bottom: 0; }
+#imFooPad { float: left; margin: 0 auto; }
+#imBtMnContainer { clear: both; }
+.imPageRow { position: relative; clear: both; overflow: hidden; zoom: 1; float: left; width: 100%; }
+.imHGroup:after, .imUGroup:after, .imVGroup:after { content: ""; display: table; clear: both; }
+#imFooterBg { position: absolute; left: 0; bottom: 0; width: 100%; }
+#imFooter { position: relative; }
+html { background-image: url('fonstola.ru-55715.jpg'); background-position: left top; background-repeat: repeat; background-attachment: scroll; background-color: #FFFFFF; }
+#imPage { padding-top: 0; margin-top: 15px; margin-bottom: 0px; }
+#imHeaderBg { height: 0px; background-image: none; background-color: #C0C0C0; }
+#imHeader { position: relative; margin-bottom: 0; margin-left: auto; margin-right: auto; height: 165px; background-image: url('2fons.ru-37392.jpg'); background-position: center center; background-repeat: no-repeat; background-attachment: scroll; background-color: #567EB6; }
+#imHeaderObjects { position: relative; height: 165px; }
+#imMnMnContainer { position: absolute; top: 165px; left: 0; right: 0; bottom: 80px; overflow: visible; zoom: 1; margin-left: auto; margin-right: auto; }
+#imMnMn { float: left; padding: 5px 5px 5px 5px; }
+#imMnMn > ul { text-align: left; }
+#imMnMnGraphics { left: 0; background-image: url('niceimage.ru-7908.jpg'); background-position: left center; background-repeat: repeat-y; background-attachment: scroll; background-color: transparent; }
+#imContent { min-height: 520px; padding: 3px 0 3px 0; }
+#imContentGraphics { left: 155px; right: 0; margin-left: auto; margin-right: auto; min-height: 520px;  background-image: url('Cool-Music-Wallpapers-HD-7.jpg'); background-position: center center; background-repeat: no-repeat; background-attachment: scroll; background-color: #FFFFFF; }
+#imFooterBg { height: 0px; background-image: none; background-color: #808080; }
+#imFooter { margin-left: auto; margin-right: auto; height: 80px; background-image: url('fon-dlya-shapki-kanala.jpg'); background-position: left top; background-repeat: no-repeat; background-attachment: scroll; background-color: #567EB6; }
+#imFooterObjects { position: relative; height: 80px; }
+#imFooPad { height: 520px; }
+#imHeader, #imMnMnContainer, #imFooter { width: 1280px; }
+#imMnMn { width: 145px; }
+#imMnMnGraphics { width: 155px; }
+#imContentGraphics { width: 1125px; }
